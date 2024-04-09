@@ -1,0 +1,137 @@
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgb(215, 171, 255), rgb(149, 35, 255), rgb(132, 0, 255));
+}
+
+.cabecalho {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: underline;
+    margin: 10px 10px 10px 10px;
+    background-color: blueviolet;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.intro {
+    margin: 10px 10px 10px 10px;
+    padding-top: 10px;
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.intro1 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    max-width: 50%;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.ftp {
+    border: 4px solid;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+
+.ftp:hover {
+    height: 315px;
+    transition: 0.3s;
+    color: white;
+}
+
+
+.obj {
+    margin: 10px 10px 10px 10px;
+    border: solid;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    max-width: 50%;
+    padding-right: 5%;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.obj:hover {
+    color: white;
+}
+
+.fim {
+    margin: 10px 10px 10px 10px;
+    border: solid;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    max-width: 50%;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-right: 5%;
+}
+
+
+.fim:hover {
+    color: white;
+}
+
+
+.e {
+    margin: 10px 10px 10px 10px;
+    border: solid;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 5%;
+    max-width: 50%;
+    gap: 20px;
+    padding-bottom: 50px;
+    width: 550px;
+}
+
+.e:hover {
+    color: white;
+}
+
+.wtp {
+    display: flex;
+    margin: 10px 10px 30px 10px;
+    width: 100px;
+    height: 50px;
+    border: solid;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    transition: 0.5s;
+}
+
+.wtp:hover {
+    background-color: rgb(141, 255, 146);
+    color: green;
+}
+
